@@ -5,12 +5,12 @@ using UnityEngine.EventSystems;
 using System;
 using System.Threading;
 using System.ComponentModel;
+using UnityEngine.UI;
 
 public class InstantiateAutoFollow : MonoBehaviour, IPointerClickHandler {
 
     public GameObject Content;
     Job myJob;
-
 
 
     //DAQRI.BodySpace bodySpace = new DAQRI.BodySpace();
@@ -20,6 +20,7 @@ public class InstantiateAutoFollow : MonoBehaviour, IPointerClickHandler {
         myJob = new Job();
         myJob.GO = Content;
         myJob.Start();
+
     }
 
 
@@ -87,14 +88,16 @@ public class InstantiateAutoFollow : MonoBehaviour, IPointerClickHandler {
  public class Job : ThreadedJob
     {
         public GameObject GO;
-
         protected override void ThreadFunction()
         {
                 MyDelay(3);
+                
+            
         }
         protected override void OnFinished()
         {
             addComponent(GO);
+            
         }
     }
 
@@ -121,7 +124,7 @@ public class InstantiateAutoFollow : MonoBehaviour, IPointerClickHandler {
     {
         Debug.Log("Waiting");
         DateTime dt = DateTime.Now + TimeSpan.FromSeconds(seconds);
-
+        
         do { } while (DateTime.Now < dt);
     }
 }

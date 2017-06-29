@@ -80,6 +80,7 @@
   <ItemGroup>
     <Compile Include="Assets\Assets\Scripts\InstantiatePart.cs" />
     <Compile Include="Assets\Assets\Scripts\WorkInstructionsController.cs" />
+    <Compile Include="Assets\Countdown.cs" />
     <Compile Include="Assets\DAQRI\Scripts\CalibrationControls.cs" />
     <Compile Include="Assets\DAQRI\Scripts\CalibrationTweak.cs" />
     <Compile Include="Assets\DAQRI\Scripts\PointerHandlerTest.cs" />
@@ -121,6 +122,7 @@
     <Compile Include="Assets\DAQRI\System\Scripts\VisionUnityAbstraction.cs" />
     <Compile Include="Assets\DAQRI\System\Scripts\VisionUnityPlugin.cs" />
     <Compile Include="Assets\InstantiateAutoFollow.cs" />
+    <Compile Include="Assets\TextTyper.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\DAQRI\DaqriVersion.txt" />
