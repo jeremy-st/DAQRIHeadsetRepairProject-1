@@ -1,0 +1,136 @@
+fileFormatVersion: 2
+guid: e5ed7bee39913f441938c8bfa9d47a97
+timeCreated: 1498070599
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: audio_cable_solo:contact_jack10
+    100002: audio_cable_solo:contact_jack11
+    100004: audio_cable_solo:contact_jack12
+    100006: audio_cable_solo:contact_jack13
+    100008: audio_cable_solo:contact_jack7
+    100010: audio_cable_solo:contact_jack8
+    100012: audio_cable_solo:contact_jack9
+    100014: audio_cable_solo:scheiding3
+    100016: audio_cable_solo:scheiding4
+    100018: audio_cable_solo:scheiding5
+    100020: //RootNode
+    100022: brep_18
+    100024: Document
+    100026: Document1
+    400000: audio_cable_solo:contact_jack10
+    400002: audio_cable_solo:contact_jack11
+    400004: audio_cable_solo:contact_jack12
+    400006: audio_cable_solo:contact_jack13
+    400008: audio_cable_solo:contact_jack7
+    400010: audio_cable_solo:contact_jack8
+    400012: audio_cable_solo:contact_jack9
+    400014: audio_cable_solo:scheiding3
+    400016: audio_cable_solo:scheiding4
+    400018: audio_cable_solo:scheiding5
+    400020: //RootNode
+    400022: brep_18
+    400024: Document
+    400026: Document1
+    2300000: audio_cable_solo:contact_jack10
+    2300002: audio_cable_solo:contact_jack11
+    2300004: audio_cable_solo:contact_jack12
+    2300006: audio_cable_solo:contact_jack13
+    2300008: audio_cable_solo:contact_jack7
+    2300010: audio_cable_solo:contact_jack8
+    2300012: audio_cable_solo:contact_jack9
+    2300014: audio_cable_solo:scheiding3
+    2300016: audio_cable_solo:scheiding4
+    2300018: audio_cable_solo:scheiding5
+    3300000: audio_cable_solo:contact_jack10
+    3300002: audio_cable_solo:contact_jack11
+    3300004: audio_cable_solo:contact_jack12
+    3300006: audio_cable_solo:contact_jack13
+    3300008: audio_cable_solo:contact_jack7
+    3300010: audio_cable_solo:contact_jack8
+    3300012: audio_cable_solo:contact_jack9
+    3300014: audio_cable_solo:scheiding3
+    3300016: audio_cable_solo:scheiding4
+    3300018: audio_cable_solo:scheiding5
+    4300000: audio_cable_solo:contact_jack7
+    4300002: audio_cable_solo:scheiding3
+    4300004: audio_cable_solo:contact_jack8
+    4300006: audio_cable_solo:scheiding4
+    4300008: audio_cable_solo:contact_jack9
+    4300010: audio_cable_solo:contact_jack10
+    4300012: audio_cable_solo:contact_jack11
+    4300014: audio_cable_solo:contact_jack12
+    4300016: audio_cable_solo:scheiding5
+    4300018: audio_cable_solo:contact_jack13
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

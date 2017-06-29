@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=-.35v1.25
+Exec=/usr/local/bin/-.35v1.25/-.35v1.25.x86_64
+Icon=/usr/share/app-install/icons/-.35v1.25.png
+Terminal=false
+Name[en_US]=-.35v1.25
+Order=20

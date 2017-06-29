@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Body Space Script
+Exec=/usr/local/bin/Body\ Space\ Script/body\ space\ script.x86_64
+Icon=/usr/share/app-install/icons/Body Space Script.png
+Terminal=false
+Name[en_US]=Body Space Script
+Order=20

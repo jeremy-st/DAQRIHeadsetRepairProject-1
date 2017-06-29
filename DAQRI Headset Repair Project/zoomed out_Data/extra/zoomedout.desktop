@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=zoomedout
+Exec=/usr/local/bin/zoomedout/zoomed\ out.x86_64
+Icon=/usr/share/app-install/icons/zoomedout.png
+Terminal=false
+Name[en_US]=zoomedout
+Order=20

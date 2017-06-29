@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=should work now!
+Exec=/usr/local/bin/should\ work\ now!/should\ work\ now.x86_64
+Icon=/usr/share/app-install/icons/should work now!.png
+Terminal=false
+Name[en_US]=should work now!
+Order=20

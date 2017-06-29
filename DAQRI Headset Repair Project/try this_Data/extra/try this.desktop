@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=try this
+Exec=/usr/local/bin/try\ this/try\ this.x86_64
+Icon=/usr/share/app-install/icons/try this.png
+Terminal=false
+Name[en_US]=try this
+Order=20

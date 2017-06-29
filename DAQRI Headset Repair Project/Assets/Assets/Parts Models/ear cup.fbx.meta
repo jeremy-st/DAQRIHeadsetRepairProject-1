@@ -1,0 +1,163 @@
+fileFormatVersion: 2
+guid: bb75339603100ae4fb9e09501bc912fb
+timeCreated: 1497990174
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: ear_seal:pCube1
+    100004: ear_seal:pCube2
+    100006: ear_seal:pCube3
+    100008: ear_seal:pCube4
+    100010: ear_seal:pPipe1
+    100012: ear_seal:pPipe2
+    100014: ear_seal:pPipe3
+    100016: ear_seal:pPipe4
+    100018: ear_seal:pPipe5
+    100020: ear_seal:pPipe6
+    100022: ear_seal:pPipe7
+    100024: pCube3
+    100026: pCube4
+    100028: pCube5
+    100030: pCylinder1
+    100032: pCylinder2
+    100034: pPipe2
+    100036: transform1
+    100038: transform2
+    400000: //RootNode
+    400002: ear_seal:pCube1
+    400004: ear_seal:pCube2
+    400006: ear_seal:pCube3
+    400008: ear_seal:pCube4
+    400010: ear_seal:pPipe1
+    400012: ear_seal:pPipe2
+    400014: ear_seal:pPipe3
+    400016: ear_seal:pPipe4
+    400018: ear_seal:pPipe5
+    400020: ear_seal:pPipe6
+    400022: ear_seal:pPipe7
+    400024: pCube3
+    400026: pCube4
+    400028: pCube5
+    400030: pCylinder1
+    400032: pCylinder2
+    400034: pPipe2
+    400036: transform1
+    400038: transform2
+    2300000: ear_seal:pCube1
+    2300002: ear_seal:pCube2
+    2300004: ear_seal:pCube3
+    2300006: ear_seal:pCube4
+    2300008: ear_seal:pPipe1
+    2300010: ear_seal:pPipe2
+    2300012: ear_seal:pPipe3
+    2300014: ear_seal:pPipe4
+    2300016: ear_seal:pPipe5
+    2300018: ear_seal:pPipe6
+    2300020: ear_seal:pPipe7
+    2300022: pCube3
+    2300024: pCube4
+    2300026: pCylinder2
+    2300028: pPipe2
+    3300000: ear_seal:pCube1
+    3300002: ear_seal:pCube2
+    3300004: ear_seal:pCube3
+    3300006: ear_seal:pCube4
+    3300008: ear_seal:pPipe1
+    3300010: ear_seal:pPipe2
+    3300012: ear_seal:pPipe3
+    3300014: ear_seal:pPipe4
+    3300016: ear_seal:pPipe5
+    3300018: ear_seal:pPipe6
+    3300020: ear_seal:pPipe7
+    3300022: pCube3
+    3300024: pCube4
+    3300026: pCylinder2
+    3300028: pPipe2
+    4300000: ear_seal:pPipe1
+    4300002: ear_seal:pCube1
+    4300004: ear_seal:pCube2
+    4300006: ear_seal:pPipe2
+    4300008: ear_seal:pCube3
+    4300010: ear_seal:pCube4
+    4300012: ear_seal:pPipe3
+    4300014: ear_seal:pPipe4
+    4300016: ear_seal:pPipe5
+    4300018: ear_seal:pPipe6
+    4300020: ear_seal:pPipe7
+    4300022: pPipe2
+    4300024: pCube3
+    4300026: pCube4
+    4300028: pCylinder2
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

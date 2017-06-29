@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=QUIT ME
+Exec=/usr/local/bin/QUIT\ ME/quitme.x86_64
+Icon=/usr/share/app-install/icons/QUIT ME.png
+Terminal=false
+Name[en_US]=QUIT ME
+Order=20

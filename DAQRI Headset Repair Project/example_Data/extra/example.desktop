@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=example
+Exec=/usr/local/bin/example/example.x86_64
+Icon=/usr/share/app-install/icons/example.png
+Terminal=false
+Name[en_US]=example
+Order=20

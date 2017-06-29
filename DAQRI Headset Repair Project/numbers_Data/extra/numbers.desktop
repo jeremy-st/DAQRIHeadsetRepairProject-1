@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=numbers
+Exec=/usr/local/bin/numbers/numbers.x86_64
+Icon=/usr/share/app-install/icons/numbers.png
+Terminal=false
+Name[en_US]=numbers
+Order=20

@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=lowered and zoomed in
+Exec=/usr/local/bin/lowered\ and\ zoomed\ in/lowered\ and\ zoomed\ in.x86_64
+Icon=/usr/share/app-install/icons/lowered and zoomed in.png
+Terminal=false
+Name[en_US]=lowered and zoomed in
+Order=20
