@@ -136,12 +136,29 @@
     <Compile Include="Assets\DAQRI\System\Scripts\Editor\PlayerSettings.cs" />
     <Compile Include="Assets\DAQRI\System\Scripts\Editor\TexturePostprocessor.cs" />
     <Compile Include="Assets\DAQRI\System\Scripts\Editor\TrackedObjectEditor.cs" />
+    <Compile Include="Assets\Ps2D\Editor\Backpack.cs" />
+    <Compile Include="Assets\Ps2D\Editor\ColliderCreator.cs" />
+    <Compile Include="Assets\Ps2D\Editor\EditorGraphics.cs" />
+    <Compile Include="Assets\Ps2D\Editor\FormatGuesser.cs" />
+    <Compile Include="Assets\Ps2D\Editor\Layer.cs" />
+    <Compile Include="Assets\Ps2D\Editor\LayerMap.cs" />
+    <Compile Include="Assets\Ps2D\Editor\Layout.cs" />
+    <Compile Include="Assets\Ps2D\Editor\LayoutEditor.cs" />
+    <Compile Include="Assets\Ps2D\Editor\Loader.cs" />
+    <Compile Include="Assets\Ps2D\Editor\MapWatcher.cs" />
+    <Compile Include="Assets\Ps2D\Editor\MiniJSON.cs" />
+    <Compile Include="Assets\Ps2D\Editor\PixelBounds.cs" />
+    <Compile Include="Assets\Ps2D\Editor\SortingLayers.cs" />
+    <Compile Include="Assets\Ps2D\Editor\SpriteAssigner.cs" />
+    <Compile Include="Assets\Ps2D\Editor\SpriteCreator.cs" />
+    <Compile Include="Assets\Ps2D\Editor\UnitySpriteLayer.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\DAQRI\DaqriVersion.txt" />
     <None Include="Assets\DAQRI\README.txt" />
     <None Include="Assets\DAQRI\System\Resources\Shaders\UIOverlay.shader" />
     <None Include="Assets\DAQRI\System\Shaders\TrackedObject.shader" />
+    <None Include="Assets\Ps2D\readme.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />

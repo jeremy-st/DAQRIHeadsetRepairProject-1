@@ -122,6 +122,8 @@
     <Compile Include="Assets\DAQRI\System\Scripts\VisionUnityAbstraction.cs" />
     <Compile Include="Assets\DAQRI\System\Scripts\VisionUnityPlugin.cs" />
     <Compile Include="Assets\InstantiateAutoFollow.cs" />
+    <Compile Include="Assets\PauseVideoCloseVideo.cs" />
+    <Compile Include="Assets\StreamVideo.cs" />
     <Compile Include="Assets\TextTyper.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -129,6 +131,7 @@
     <None Include="Assets\DAQRI\README.txt" />
     <None Include="Assets\DAQRI\System\Resources\Shaders\UIOverlay.shader" />
     <None Include="Assets\DAQRI\System\Shaders\TrackedObject.shader" />
+    <None Include="Assets\Ps2D\readme.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />

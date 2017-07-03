@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Looped Video
+Exec=/usr/local/bin/Looped\ Video/Looped\ Video.x86_64
+Icon=/usr/share/app-install/icons/Looped Video.png
+Terminal=false
+Name[en_US]=Looped Video
+Order=20

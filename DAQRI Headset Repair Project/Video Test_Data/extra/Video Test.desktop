@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Video Test
+Exec=/usr/local/bin/Video\ Test/Video\ Test.x86_64
+Icon=/usr/share/app-install/icons/Video Test.png
+Terminal=false
+Name[en_US]=Video Test
+Order=20
