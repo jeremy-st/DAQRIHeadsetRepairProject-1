@@ -1,38 +1,33 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
+using UnityEngine.EventSystems;
 
-public class TextTyper : MonoBehaviour
+public class TextTyper : MonoBehaviour, IPointerClickHandler
 {
 
     public float letterPause = 0.2f;
     private IEnumerator coroutine;
+    private IEnumerator coroutine2;
 
     string message = "";
     public Text textComp;
 
     // Use this for initialization
-    IEnumerator Start()
+
+    public void OnPointerClick(PointerEventData eventData)
     {
-        
-        //yield return StartCoroutine(TypeText());
         coroutine = TypeText();
-        yield return StartCoroutine(coroutine);
-        
+        StartCoroutine(coroutine);
     }
-
-
     private IEnumerator TypeText()
     {
-        message = "123";
+        message = "123 ";
         textComp.text = "";
         foreach (char letter in message.ToCharArray())
         {
-            textComp.text = letter.ToString();
-            Debug.Log(message);
-            Debug.Log(letter);
-            yield return new WaitForSeconds(5);
-            Debug.Log("0");
+                textComp.text = letter.ToString();
+                yield return new WaitForSeconds(1);
         }
     }
 }

@@ -1,82 +1,82 @@
 --------------------------------
-Thu Jun 29 15:21:16 2017  -  <unity_deploy> log opened
-Thu Jun 29 15:21:16 2017  -  Executable name: Improved Buttons.x86_64
-Thu Jun 29 15:21:16 2017  -  Data Folder Path: C:/Users/ITAiid014/Documents/GitHub/DAQRIHeadsetRepairProject/DAQRI Headset Repair Project/Improved Buttons_Data
-Thu Jun 29 15:21:16 2017  -  Directory path for extras: C:/Users/ITAiid014/Documents/GitHub/DAQRIHeadsetRepairProject/DAQRI Headset Repair Project/Improved Buttons_Data/extra
-Thu Jun 29 15:21:16 2017  -  Copying the provided icon file into the src/extra directory
-Thu Jun 29 15:21:16 2017  -  Creating the Improved Buttons.desktop file in subdirectory <extra>
-Thu Jun 29 15:21:16 2017  -  Improved Buttons.dekstop created successfully
-Thu Jun 29 15:21:19 2017  -  Creating an SSH session
-Thu Jun 29 15:21:19 2017  -  Creating and SSH channel
-Thu Jun 29 15:21:19 2017  -  Opening the ssh channel session
-Thu Jun 29 15:21:21 2017  -  Requesting the execution of the command on ssh channel
-Thu Jun 29 15:21:21 2017  -  Command executed successfully
-Thu Jun 29 15:21:21 2017  -  Creating and SSH channel
-Thu Jun 29 15:21:21 2017  -  Opening the ssh channel session
-Thu Jun 29 15:21:22 2017  -  Requesting the execution of the command on ssh channel
-Thu Jun 29 15:21:22 2017  -  Command executed successfully
-Thu Jun 29 15:21:22 2017  -  Starting scp
-Thu Jun 29 15:21:22 2017  -  Initializing the scp session
-Thu Jun 29 15:21:23 2017  -  Copying executable: Improved Buttons.x86_64
-Thu Jun 29 15:21:23 2017  -  Reading file contents of Improved Buttons.x86_64
-Thu Jun 29 15:21:23 2017  -  Writing file contents of Improved Buttons.x86_64
-Thu Jun 29 15:21:25 2017  -  Starting scp
-Thu Jun 29 15:21:25 2017  -  Initializing the scp session
-Thu Jun 29 15:21:26 2017  -  Copying executable: Improved Buttons_Data.zip
-Thu Jun 29 15:21:26 2017  -  Reading file contents of Improved Buttons_Data.zip
-Thu Jun 29 15:21:26 2017  -  Writing file contents of Improved Buttons_Data.zip
-Thu Jun 29 15:21:27 2017  -  Creating and SSH channel
-Thu Jun 29 15:21:27 2017  -  Opening the ssh channel session
-Thu Jun 29 15:21:28 2017  -  Requesting the execution of the command on ssh channel
-Thu Jun 29 15:21:29 2017  -  Command executed successfully
-Thu Jun 29 15:21:29 2017  -  Creating and SSH channel
-Thu Jun 29 15:21:29 2017  -  Opening the ssh channel session
-Thu Jun 29 15:21:29 2017  -  Requesting the execution of the command on ssh channel
-Thu Jun 29 15:21:29 2017  -  Command executed successfully
-Thu Jun 29 15:21:29 2017  -  Copying .desktop file to /usr/local/bin/applications/
-Thu Jun 29 15:21:29 2017  -  Creating and SSH channel
-Thu Jun 29 15:21:29 2017  -  Opening the ssh channel session
-Thu Jun 29 15:21:30 2017  -  Requesting the execution of the command on ssh channel
-Thu Jun 29 15:21:30 2017  -  Command executed successfully
-Thu Jun 29 15:21:30 2017  -  Copying .desktop file to /usr/local/bin/applications/
-Thu Jun 29 15:21:30 2017  -  Creating and SSH channel
-Thu Jun 29 15:21:30 2017  -  Opening the ssh channel session
-Thu Jun 29 15:21:31 2017  -  Requesting the execution of the command on ssh channel
-Thu Jun 29 15:21:31 2017  -  Command executed successfully
-Thu Jun 29 15:21:31 2017  -  Setting .desktop file permission inside /usr/local/bin/applications/
-Thu Jun 29 15:21:31 2017  -  Creating and SSH channel
-Thu Jun 29 15:21:31 2017  -  Opening the ssh channel session
-Thu Jun 29 15:21:32 2017  -  Requesting the execution of the command on ssh channel
-Thu Jun 29 15:21:32 2017  -  Command executed successfully
-Thu Jun 29 15:21:32 2017  -  Copying .desktop file to /usr/share/applications/
-Thu Jun 29 15:21:32 2017  -  Creating and SSH channel
-Thu Jun 29 15:21:32 2017  -  Opening the ssh channel session
-Thu Jun 29 15:21:33 2017  -  Requesting the execution of the command on ssh channel
-Thu Jun 29 15:21:33 2017  -  Command executed successfully
-Thu Jun 29 15:21:33 2017  -  Setting .desktop file permissions inside /usr/share/applications/
-Thu Jun 29 15:21:33 2017  -  Creating and SSH channel
-Thu Jun 29 15:21:33 2017  -  Opening the ssh channel session
-Thu Jun 29 15:21:34 2017  -  Requesting the execution of the command on ssh channel
-Thu Jun 29 15:21:34 2017  -  Command executed successfully
-Thu Jun 29 15:21:34 2017  -  Copying icon file to /usr/share/app-install/icons/
-Thu Jun 29 15:21:34 2017  -  Creating and SSH channel
-Thu Jun 29 15:21:34 2017  -  Opening the ssh channel session
-Thu Jun 29 15:21:35 2017  -  Requesting the execution of the command on ssh channel
-Thu Jun 29 15:21:35 2017  -  Command executed successfully
-Thu Jun 29 15:21:35 2017  -  Setting icon file permissions inside /usr/share/app-install/icons/
-Thu Jun 29 15:21:35 2017  -  Creating and SSH channel
-Thu Jun 29 15:21:35 2017  -  Opening the ssh channel session
-Thu Jun 29 15:21:36 2017  -  Requesting the execution of the command on ssh channel
-Thu Jun 29 15:21:36 2017  -  Command executed successfully
-Thu Jun 29 15:21:36 2017  -  Creating and SSH channel
-Thu Jun 29 15:21:36 2017  -  Opening the ssh channel session
-Thu Jun 29 15:21:36 2017  -  Requesting the execution of the command on ssh channel
-Thu Jun 29 15:21:36 2017  -  Command executed successfully
-Thu Jun 29 15:21:37 2017  -  Creating and SSH channel
-Thu Jun 29 15:21:37 2017  -  Opening the ssh channel session
-Thu Jun 29 15:21:37 2017  -  Requesting the execution of the command on ssh channel
-Thu Jun 29 15:21:37 2017  -  Command executed successfully
+Mon Jul 03 11:29:59 2017  -  <unity_deploy> log opened
+Mon Jul 03 11:29:59 2017  -  Executable name: Fixed TypeText or whatever.x86_64
+Mon Jul 03 11:29:59 2017  -  Data Folder Path: C:/Users/ITAiid014/Documents/GitHub/DAQRIHeadsetRepairProject/DAQRI Headset Repair Project/Fixed TypeText or whatever_Data
+Mon Jul 03 11:29:59 2017  -  Directory path for extras: C:/Users/ITAiid014/Documents/GitHub/DAQRIHeadsetRepairProject/DAQRI Headset Repair Project/Fixed TypeText or whatever_Data/extra
+Mon Jul 03 11:29:59 2017  -  Copying the provided icon file into the src/extra directory
+Mon Jul 03 11:29:59 2017  -  Creating the Fixed TypeText or whatever.desktop file in subdirectory <extra>
+Mon Jul 03 11:29:59 2017  -  Fixed TypeText or whatever.dekstop created successfully
+Mon Jul 03 11:30:02 2017  -  Creating an SSH session
+Mon Jul 03 11:30:02 2017  -  Creating and SSH channel
+Mon Jul 03 11:30:02 2017  -  Opening the ssh channel session
+Mon Jul 03 11:30:03 2017  -  Requesting the execution of the command on ssh channel
+Mon Jul 03 11:30:03 2017  -  Command executed successfully
+Mon Jul 03 11:30:03 2017  -  Creating and SSH channel
+Mon Jul 03 11:30:03 2017  -  Opening the ssh channel session
+Mon Jul 03 11:30:04 2017  -  Requesting the execution of the command on ssh channel
+Mon Jul 03 11:30:04 2017  -  Command executed successfully
+Mon Jul 03 11:30:04 2017  -  Starting scp
+Mon Jul 03 11:30:04 2017  -  Initializing the scp session
+Mon Jul 03 11:30:05 2017  -  Copying executable: Fixed TypeText or whatever.x86_64
+Mon Jul 03 11:30:05 2017  -  Reading file contents of Fixed TypeText or whatever.x86_64
+Mon Jul 03 11:30:05 2017  -  Writing file contents of Fixed TypeText or whatever.x86_64
+Mon Jul 03 11:30:08 2017  -  Starting scp
+Mon Jul 03 11:30:08 2017  -  Initializing the scp session
+Mon Jul 03 11:30:08 2017  -  Copying executable: Fixed TypeText or whatever_Data.zip
+Mon Jul 03 11:30:08 2017  -  Reading file contents of Fixed TypeText or whatever_Data.zip
+Mon Jul 03 11:30:08 2017  -  Writing file contents of Fixed TypeText or whatever_Data.zip
+Mon Jul 03 11:30:09 2017  -  Creating and SSH channel
+Mon Jul 03 11:30:09 2017  -  Opening the ssh channel session
+Mon Jul 03 11:30:10 2017  -  Requesting the execution of the command on ssh channel
+Mon Jul 03 11:30:11 2017  -  Command executed successfully
+Mon Jul 03 11:30:11 2017  -  Creating and SSH channel
+Mon Jul 03 11:30:11 2017  -  Opening the ssh channel session
+Mon Jul 03 11:30:12 2017  -  Requesting the execution of the command on ssh channel
+Mon Jul 03 11:30:12 2017  -  Command executed successfully
+Mon Jul 03 11:30:12 2017  -  Copying .desktop file to /usr/local/bin/applications/
+Mon Jul 03 11:30:12 2017  -  Creating and SSH channel
+Mon Jul 03 11:30:12 2017  -  Opening the ssh channel session
+Mon Jul 03 11:30:12 2017  -  Requesting the execution of the command on ssh channel
+Mon Jul 03 11:30:13 2017  -  Command executed successfully
+Mon Jul 03 11:30:13 2017  -  Copying .desktop file to /usr/local/bin/applications/
+Mon Jul 03 11:30:13 2017  -  Creating and SSH channel
+Mon Jul 03 11:30:13 2017  -  Opening the ssh channel session
+Mon Jul 03 11:30:13 2017  -  Requesting the execution of the command on ssh channel
+Mon Jul 03 11:30:14 2017  -  Command executed successfully
+Mon Jul 03 11:30:14 2017  -  Setting .desktop file permission inside /usr/local/bin/applications/
+Mon Jul 03 11:30:14 2017  -  Creating and SSH channel
+Mon Jul 03 11:30:14 2017  -  Opening the ssh channel session
+Mon Jul 03 11:30:14 2017  -  Requesting the execution of the command on ssh channel
+Mon Jul 03 11:30:14 2017  -  Command executed successfully
+Mon Jul 03 11:30:14 2017  -  Copying .desktop file to /usr/share/applications/
+Mon Jul 03 11:30:15 2017  -  Creating and SSH channel
+Mon Jul 03 11:30:15 2017  -  Opening the ssh channel session
+Mon Jul 03 11:30:15 2017  -  Requesting the execution of the command on ssh channel
+Mon Jul 03 11:30:15 2017  -  Command executed successfully
+Mon Jul 03 11:30:15 2017  -  Setting .desktop file permissions inside /usr/share/applications/
+Mon Jul 03 11:30:15 2017  -  Creating and SSH channel
+Mon Jul 03 11:30:15 2017  -  Opening the ssh channel session
+Mon Jul 03 11:30:16 2017  -  Requesting the execution of the command on ssh channel
+Mon Jul 03 11:30:16 2017  -  Command executed successfully
+Mon Jul 03 11:30:16 2017  -  Copying icon file to /usr/share/app-install/icons/
+Mon Jul 03 11:30:16 2017  -  Creating and SSH channel
+Mon Jul 03 11:30:16 2017  -  Opening the ssh channel session
+Mon Jul 03 11:30:17 2017  -  Requesting the execution of the command on ssh channel
+Mon Jul 03 11:30:17 2017  -  Command executed successfully
+Mon Jul 03 11:30:17 2017  -  Setting icon file permissions inside /usr/share/app-install/icons/
+Mon Jul 03 11:30:17 2017  -  Creating and SSH channel
+Mon Jul 03 11:30:17 2017  -  Opening the ssh channel session
+Mon Jul 03 11:30:18 2017  -  Requesting the execution of the command on ssh channel
+Mon Jul 03 11:30:18 2017  -  Command executed successfully
+Mon Jul 03 11:30:18 2017  -  Creating and SSH channel
+Mon Jul 03 11:30:18 2017  -  Opening the ssh channel session
+Mon Jul 03 11:30:19 2017  -  Requesting the execution of the command on ssh channel
+Mon Jul 03 11:30:19 2017  -  Command executed successfully
+Mon Jul 03 11:30:19 2017  -  Creating and SSH channel
+Mon Jul 03 11:30:19 2017  -  Opening the ssh channel session
+Mon Jul 03 11:30:20 2017  -  Requesting the execution of the command on ssh channel
+Mon Jul 03 11:30:20 2017  -  Command executed successfully
 utility finished with exit code: 0
 Success
-Thu Jun 29 15:21:37 2017  -  <unity_deploy> log closed
+Mon Jul 03 11:30:20 2017  -  <unity_deploy> log closed
 --------------------------------

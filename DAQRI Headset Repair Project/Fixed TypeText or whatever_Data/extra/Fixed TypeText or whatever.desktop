@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Fixed TypeText or whatever
+Exec=/usr/local/bin/Fixed\ TypeText\ or\ whatever/Fixed\ TypeText\ or\ whatever.x86_64
+Icon=/usr/share/app-install/icons/Fixed TypeText or whatever.png
+Terminal=false
+Name[en_US]=Fixed TypeText or whatever
+Order=20
