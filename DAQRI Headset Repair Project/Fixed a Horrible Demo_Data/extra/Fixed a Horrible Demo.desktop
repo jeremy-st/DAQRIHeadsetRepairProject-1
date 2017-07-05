@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Fixed a Horrible Demo
+Exec=/usr/local/bin/Fixed\ a\ Horrible\ Demo/Fixed\ a\ Horrible\ Demo.x86_64
+Icon=/usr/share/app-install/icons/Fixed a Horrible Demo.png
+Terminal=false
+Name[en_US]=Fixed a Horrible Demo
+Order=20

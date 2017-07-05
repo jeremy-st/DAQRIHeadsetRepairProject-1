@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=do i lag
+Exec=/usr/local/bin/do\ i\ lag/do\ i\ lag.x86_64
+Icon=/usr/share/app-install/icons/do i lag.png
+Terminal=false
+Name[en_US]=do i lag
+Order=20
