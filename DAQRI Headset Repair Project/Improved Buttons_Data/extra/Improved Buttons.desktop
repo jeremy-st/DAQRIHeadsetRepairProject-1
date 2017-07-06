@@ -1,8 +1,0 @@
-[Desktop Entry]
-Type=Application
-Name=Improved Buttons
-Exec=/usr/local/bin/Improved\ Buttons/Improved\ Buttons.x86_64
-Icon=/usr/share/app-install/icons/Improved Buttons.png
-Terminal=false
-Name[en_US]=Improved Buttons
-Order=20

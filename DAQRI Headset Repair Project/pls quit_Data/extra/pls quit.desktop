@@ -1,8 +1,0 @@
-[Desktop Entry]
-Type=Application
-Name=pls quit
-Exec=/usr/local/bin/pls\ quit/pls\ quit.x86_64
-Icon=/usr/share/app-install/icons/pls quit.png
-Terminal=false
-Name[en_US]=pls quit
-Order=20

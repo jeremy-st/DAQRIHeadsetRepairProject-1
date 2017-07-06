@@ -1,8 +1,0 @@
-[Desktop Entry]
-Type=Application
-Name=Demo 6-29
-Exec=/usr/local/bin/Demo\ 6-29/Demo\ 6-29.x86_64
-Icon=/usr/share/app-install/icons/Demo 6-29.png
-Terminal=false
-Name[en_US]=Demo 6-29
-Order=20

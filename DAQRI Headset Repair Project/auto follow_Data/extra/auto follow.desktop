@@ -1,8 +1,0 @@
-[Desktop Entry]
-Type=Application
-Name=auto follow
-Exec=/usr/local/bin/auto\ follow/auto\ follow.x86_64
-Icon=/usr/share/app-install/icons/auto follow.png
-Terminal=false
-Name[en_US]=auto follow
-Order=20

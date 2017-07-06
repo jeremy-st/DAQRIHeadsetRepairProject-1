@@ -1,8 +1,0 @@
-[Desktop Entry]
-Type=Application
-Name=UI Layer
-Exec=/usr/local/bin/UI\ Layer/UI\ Layer.x86_64
-Icon=/usr/share/app-install/icons/UI Layer.png
-Terminal=false
-Name[en_US]=UI Layer
-Order=20

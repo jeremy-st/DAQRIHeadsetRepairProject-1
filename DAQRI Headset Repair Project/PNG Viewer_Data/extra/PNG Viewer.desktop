@@ -1,8 +1,0 @@
-[Desktop Entry]
-Type=Application
-Name=PNG Viewer
-Exec=/usr/local/bin/PNG\ Viewer/PNG\ Viewer.x86_64
-Icon=/usr/share/app-install/icons/PNG Viewer.png
-Terminal=false
-Name[en_US]=PNG Viewer
-Order=20

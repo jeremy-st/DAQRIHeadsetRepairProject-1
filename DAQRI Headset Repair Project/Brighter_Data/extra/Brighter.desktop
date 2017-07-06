@@ -1,8 +1,0 @@
-[Desktop Entry]
-Type=Application
-Name=Brighter
-Exec=/usr/local/bin/Brighter/Brighter.x86_64
-Icon=/usr/share/app-install/icons/Brighter.png
-Terminal=false
-Name[en_US]=Brighter
-Order=20
