@@ -78,7 +78,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Assets\Scripts\InstantiateAutoFollow.cs" />
     <Compile Include="Assets\Assets\Scripts\InstantiatePart.cs" />
+    <Compile Include="Assets\Assets\Scripts\PauseVideoCloseVideo.cs" />
+    <Compile Include="Assets\Assets\Scripts\StreamVideo.cs" />
+    <Compile Include="Assets\Assets\Scripts\TextTyper.cs" />
     <Compile Include="Assets\Assets\Scripts\WorkInstructionsController.cs" />
     <Compile Include="Assets\DAQRI\Scripts\CalibrationControls.cs" />
     <Compile Include="Assets\DAQRI\Scripts\CalibrationTweak.cs" />
@@ -120,10 +124,6 @@
     <Compile Include="Assets\DAQRI\System\Scripts\VideoBackdrop.cs" />
     <Compile Include="Assets\DAQRI\System\Scripts\VisionUnityAbstraction.cs" />
     <Compile Include="Assets\DAQRI\System\Scripts\VisionUnityPlugin.cs" />
-    <Compile Include="Assets\InstantiateAutoFollow.cs" />
-    <Compile Include="Assets\PauseVideoCloseVideo.cs" />
-    <Compile Include="Assets\StreamVideo.cs" />
-    <Compile Include="Assets\TextTyper.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\DAQRI\DaqriVersion.txt" />
