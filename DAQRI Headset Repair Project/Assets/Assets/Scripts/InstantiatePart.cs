@@ -7,7 +7,6 @@ public class InstantiatePart : MonoBehaviour {
     public GameObject Enable_Disable;
     public void EnableorDisable()
     {
-
         if (Enable_Disable.active)
         {
             Enable_Disable.SetActive(false);
@@ -16,6 +15,5 @@ public class InstantiatePart : MonoBehaviour {
         {
             Enable_Disable.SetActive(true);
         }
-
     }
 }

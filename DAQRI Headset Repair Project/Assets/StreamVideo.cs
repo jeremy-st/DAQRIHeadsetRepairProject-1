@@ -107,7 +107,7 @@ public class StreamVideo : MonoBehaviour
 
     public void PlayPause()
     {
-        
+
         Enabled.SetActive(true);
         if (!firstRun && !IsPaused.Is_Paused)
         {

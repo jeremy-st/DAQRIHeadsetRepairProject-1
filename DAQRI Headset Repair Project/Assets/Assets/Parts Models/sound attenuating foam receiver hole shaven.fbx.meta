@@ -1,0 +1,174 @@
+fileFormatVersion: 2
+guid: 8db88d489043a9847a52bc7bde0aaf79
+timeCreated: 1499368070
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: foam_sound_attenuating_receiver_hole_unshaven:pCube1
+    100002: foam_sound_attenuating_receiver_hole_unshaven:pCube10
+    100004: foam_sound_attenuating_receiver_hole_unshaven:pCube11
+    100006: foam_sound_attenuating_receiver_hole_unshaven:pCube12
+    100008: foam_sound_attenuating_receiver_hole_unshaven:pCube13
+    100010: foam_sound_attenuating_receiver_hole_unshaven:pCube2
+    100012: foam_sound_attenuating_receiver_hole_unshaven:pCube3
+    100014: foam_sound_attenuating_receiver_hole_unshaven:pCube4
+    100016: foam_sound_attenuating_receiver_hole_unshaven:pCube5
+    100018: foam_sound_attenuating_receiver_hole_unshaven:pCube6
+    100020: foam_sound_attenuating_receiver_hole_unshaven:pCube7
+    100022: foam_sound_attenuating_receiver_hole_unshaven:pCube8
+    100024: foam_sound_attenuating_receiver_hole_unshaven:pCube9
+    100026: foam_sound_attenuating_receiver_hole_unshaven:pCylinder1
+    100028: foam_sound_attenuating_receiver_hole_unshaven:pCylinder2
+    100030: foam_sound_attenuating_receiver_hole_unshaven:pCylinder3
+    100032: foam_sound_attenuating_receiver_hole_unshaven:pCylinder4
+    100034: foam_sound_attenuating_receiver_hole_unshaven:pPipe1
+    100036: foam_sound_attenuating_receiver_hole_unshaven:pPipe2
+    100038: foam_sound_attenuating_receiver_hole_unshaven:transform1
+    100040: foam_sound_attenuating_receiver_hole_unshaven:transform10
+    100042: foam_sound_attenuating_receiver_hole_unshaven:transform11
+    100044: foam_sound_attenuating_receiver_hole_unshaven:transform12
+    100046: foam_sound_attenuating_receiver_hole_unshaven:transform13
+    100048: foam_sound_attenuating_receiver_hole_unshaven:transform14
+    100050: foam_sound_attenuating_receiver_hole_unshaven:transform15
+    100052: foam_sound_attenuating_receiver_hole_unshaven:transform16
+    100054: foam_sound_attenuating_receiver_hole_unshaven:transform2
+    100056: foam_sound_attenuating_receiver_hole_unshaven:transform3
+    100058: foam_sound_attenuating_receiver_hole_unshaven:transform4
+    100060: foam_sound_attenuating_receiver_hole_unshaven:transform5
+    100062: foam_sound_attenuating_receiver_hole_unshaven:transform6
+    100064: foam_sound_attenuating_receiver_hole_unshaven:transform7
+    100066: foam_sound_attenuating_receiver_hole_unshaven:transform8
+    100068: foam_sound_attenuating_receiver_hole_unshaven:transform9
+    100070: pSphere1
+    100072: pSphere2
+    100074: pSphere3
+    100076: //RootNode
+    400000: foam_sound_attenuating_receiver_hole_unshaven:pCube1
+    400002: foam_sound_attenuating_receiver_hole_unshaven:pCube10
+    400004: foam_sound_attenuating_receiver_hole_unshaven:pCube11
+    400006: foam_sound_attenuating_receiver_hole_unshaven:pCube12
+    400008: foam_sound_attenuating_receiver_hole_unshaven:pCube13
+    400010: foam_sound_attenuating_receiver_hole_unshaven:pCube2
+    400012: foam_sound_attenuating_receiver_hole_unshaven:pCube3
+    400014: foam_sound_attenuating_receiver_hole_unshaven:pCube4
+    400016: foam_sound_attenuating_receiver_hole_unshaven:pCube5
+    400018: foam_sound_attenuating_receiver_hole_unshaven:pCube6
+    400020: foam_sound_attenuating_receiver_hole_unshaven:pCube7
+    400022: foam_sound_attenuating_receiver_hole_unshaven:pCube8
+    400024: foam_sound_attenuating_receiver_hole_unshaven:pCube9
+    400026: foam_sound_attenuating_receiver_hole_unshaven:pCylinder1
+    400028: foam_sound_attenuating_receiver_hole_unshaven:pCylinder2
+    400030: foam_sound_attenuating_receiver_hole_unshaven:pCylinder3
+    400032: foam_sound_attenuating_receiver_hole_unshaven:pCylinder4
+    400034: foam_sound_attenuating_receiver_hole_unshaven:pPipe1
+    400036: foam_sound_attenuating_receiver_hole_unshaven:pPipe2
+    400038: foam_sound_attenuating_receiver_hole_unshaven:transform1
+    400040: foam_sound_attenuating_receiver_hole_unshaven:transform10
+    400042: foam_sound_attenuating_receiver_hole_unshaven:transform11
+    400044: foam_sound_attenuating_receiver_hole_unshaven:transform12
+    400046: foam_sound_attenuating_receiver_hole_unshaven:transform13
+    400048: foam_sound_attenuating_receiver_hole_unshaven:transform14
+    400050: foam_sound_attenuating_receiver_hole_unshaven:transform15
+    400052: foam_sound_attenuating_receiver_hole_unshaven:transform16
+    400054: foam_sound_attenuating_receiver_hole_unshaven:transform2
+    400056: foam_sound_attenuating_receiver_hole_unshaven:transform3
+    400058: foam_sound_attenuating_receiver_hole_unshaven:transform4
+    400060: foam_sound_attenuating_receiver_hole_unshaven:transform5
+    400062: foam_sound_attenuating_receiver_hole_unshaven:transform6
+    400064: foam_sound_attenuating_receiver_hole_unshaven:transform7
+    400066: foam_sound_attenuating_receiver_hole_unshaven:transform8
+    400068: foam_sound_attenuating_receiver_hole_unshaven:transform9
+    400070: pSphere1
+    400072: pSphere2
+    400074: pSphere3
+    400076: //RootNode
+    2300000: foam_sound_attenuating_receiver_hole_unshaven:pCube11
+    2300002: foam_sound_attenuating_receiver_hole_unshaven:pCube12
+    2300004: foam_sound_attenuating_receiver_hole_unshaven:pCube13
+    2300006: foam_sound_attenuating_receiver_hole_unshaven:pCube7
+    2300008: foam_sound_attenuating_receiver_hole_unshaven:pCube9
+    2300010: foam_sound_attenuating_receiver_hole_unshaven:pCylinder4
+    3300000: foam_sound_attenuating_receiver_hole_unshaven:pCube11
+    3300002: foam_sound_attenuating_receiver_hole_unshaven:pCube12
+    3300004: foam_sound_attenuating_receiver_hole_unshaven:pCube13
+    3300006: foam_sound_attenuating_receiver_hole_unshaven:pCube7
+    3300008: foam_sound_attenuating_receiver_hole_unshaven:pCube9
+    3300010: foam_sound_attenuating_receiver_hole_unshaven:pCylinder4
+    4300000: foam_sound_attenuating_receiver_hole_unshaven:pCube7
+    4300002: foam_sound_attenuating_receiver_hole_unshaven:pCube9
+    4300004: foam_sound_attenuating_receiver_hole_unshaven:pCube11
+    4300006: foam_sound_attenuating_receiver_hole_unshaven:pCube12
+    4300008: foam_sound_attenuating_receiver_hole_unshaven:pCube13
+    4300010: foam_sound_attenuating_receiver_hole_unshaven:pCylinder4
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
