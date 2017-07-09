@@ -170,8 +170,10 @@
     <Compile Include="Assets\DAQRI\System\Scripts\VisionUnityPlugin.cs" />
     <Compile Include="Assets\Scripts\InstantiateAutoFollow.cs" />
     <Compile Include="Assets\Scripts\InstantiatePart.cs" />
+    <Compile Include="Assets\Scripts\OBClick.cs" />
     <Compile Include="Assets\Scripts\PauseVideoCloseVideo.cs" />
     <Compile Include="Assets\Scripts\StreamVideo.cs" />
+    <Compile Include="Assets\Scripts\TextDisplay.cs" />
     <Compile Include="Assets\Scripts\TextTyper.cs" />
     <Compile Include="Assets\Scripts\UIScript.cs" />
     <Compile Include="Assets\Scripts\WorkInstructionsController.cs" />
