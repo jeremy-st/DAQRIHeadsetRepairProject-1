@@ -36,10 +36,10 @@ public class OBClick : MonoBehaviour, IPointerClickHandler
             txt.text = ob.Message;
             txt.font = Resources.GetBuiltinResource(typeof(Font), "Arial.ttf") as Font;
             txt.fontSize = 20;
-            txt.color = Color.black;
+            txt.color = Color.white;
             txt.alignment = TextAnchor.MiddleCenter;
             TextGO.transform.SetParent(RIM.reticle.transform);
-            TextGO.transform.localPosition = new Vector3(0f, -200f, -1.2f);
+            TextGO.transform.localPosition = new Vector3(0f, -80f, -1.2f);
             TextGO.transform.localScale = new Vector3(1f, 1f, 1f);
             TextGO.transform.localRotation = new Quaternion(0f, 0f, 0f, 0f);
             RectTransform rt = TextGO.GetComponent(typeof(RectTransform)) as RectTransform;
