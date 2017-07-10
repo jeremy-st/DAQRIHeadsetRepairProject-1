@@ -45,7 +45,7 @@ MonoBehaviour:
   m_MinSize: {x: 683, y: 342}
   m_MaxSize: {x: 12008, y: 8042}
   vertical: 0
-  controlID: 46
+  controlID: 9
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -87,7 +87,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 247
+    width: 214
     height: 673
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
@@ -210,7 +210,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 342}
   m_MaxSize: {x: 8006, y: 8042}
   vertical: 1
-  controlID: 47
+  controlID: 10
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -234,7 +234,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 221}
   m_MaxSize: {x: 8006, y: 4021}
   vertical: 0
-  controlID: 48
+  controlID: 11
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -249,9 +249,9 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 247
+    x: 214
     y: 0
-    width: 752
+    width: 785
     height: 673
   m_MinSize: {x: 204, y: 221}
   m_MaxSize: {x: 4004, y: 4021}
@@ -343,7 +343,7 @@ MonoBehaviour:
     width: 997
     height: 197
   m_SearchFilter:
-    m_NameFilter: nut
+    m_NameFilter: strap
     m_ClassNames: []
     m_AssetLabels: []
     m_AssetBundleNames: []
@@ -352,8 +352,7 @@ MonoBehaviour:
     m_ScenePaths: []
     m_ShowAllHits: 0
     m_SearchArea: 0
-    m_Folders:
-    - Assets/Assets/Parts Prefabs
+    m_Folders: []
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
@@ -363,10 +362,10 @@ MonoBehaviour:
     Headset Repair Project
   m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 53}
+    scrollPos: {x: 0, y: 120}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000050250000022c000000ca9a3bffffff7f
+    m_ExpandedIDs: 0000000052260000d0260000002d000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -394,7 +393,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000050250000022c0000
+    m_ExpandedIDs: 0000000052260000002d0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -419,8 +418,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 78eeffff
-    m_LastClickedInstanceID: -4488
+    m_SelectedInstanceIDs: 848ffcff
+    m_LastClickedInstanceID: -225404
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
@@ -506,27 +505,27 @@ MonoBehaviour:
     serializedVersion: 2
     x: 3840
     y: 92
-    width: 245
+    width: 212
     height: 652
   m_TreeViewState:
-    scrollPos: {x: 0, y: 120}
-    m_SelectedIDs: faf0ffff
-    m_LastClickedID: -3846
-    m_ExpandedIDs: 3456feffe66bfeffc86efeff10beffff58d0fffff8dbfffffcf0fffffef0ffff0cf1ffffe0fbffff000000004c3200008a320000e2320000f833000016340000ca350000ec350000f23500009a360000
+    scrollPos: {x: 0, y: 124}
+    m_SelectedIDs: 82f2ffff
+    m_LastClickedID: -3454
+    m_ExpandedIDs: 8edeffff94deffff86f0ffff88f0ffff8af0ffff8cf0ffff8ef0ffff90f0ffff96f0ffff78f2ffff7af2ffff7cf2ffff82f2ffff5cfbffff000000008a330000e2330000c0340000fe340000c6350000e8350000be360000083700000e37000052370000a0370000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: plastic washer
-      m_OriginalName: plastic washer
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: -4350
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 0
       m_ClientGUIView: {fileID: 4}
     m_SearchString: 
@@ -557,9 +556,9 @@ MonoBehaviour:
   m_DepthBufferBits: 32
   m_Pos:
     serializedVersion: 2
-    x: 4089
+    x: 4056
     y: 92
-    width: 748
+    width: 781
     height: 652
   m_SceneLighting: 1
   lastFramingTime: 2802.8675702774754
@@ -567,9 +566,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -0.057751633, y: 0.116360456, z: 2.000007}
+    m_Target: {x: -0.067806676, y: -0.05048331, z: 2.2038224}
     speed: 2
-    m_Value: {x: -0.057751633, y: 0.116360456, z: 2.000007}
+    m_Value: {x: -0.067806676, y: -0.05048331, z: 2.2038224}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -592,13 +591,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: -0.054275524, y: 0.021570815, z: -0.0011131865, w: -0.9983565}
+    m_Target: {x: -0.045217056, y: 0.06500024, z: -0.002693058, w: -0.9969359}
     speed: 2
-    m_Value: {x: -0.05427205, y: 0.021569435, z: -0.0011131152, w: -0.9982926}
+    m_Value: {x: -0.045213483, y: 0.06499511, z: -0.0026928452, w: -0.9968571}
   m_Size:
-    m_Target: 0.7302727
+    m_Target: 0.4312845
     speed: 2
-    m_Value: 0.7302727
+    m_Value: 0.4312845
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -631,9 +630,9 @@ MonoBehaviour:
   m_DepthBufferBits: 32
   m_Pos:
     serializedVersion: 2
-    x: 4089
+    x: 4056
     y: 92
-    width: 748
+    width: 781
     height: 652
   m_MaximizeOnPlay: 0
   m_Gizmos: 0
@@ -643,8 +642,8 @@ MonoBehaviour:
   m_ZoomArea:
     m_HRangeLocked: 0
     m_VRangeLocked: 0
-    m_HBaseRangeMin: -374
-    m_HBaseRangeMax: 374
+    m_HBaseRangeMin: -390.5
+    m_HBaseRangeMax: 390.5
     m_VBaseRangeMin: -317.5
     m_VBaseRangeMax: 317.5
     m_HAllowExceedBaseRangeMin: 1
@@ -663,25 +662,25 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 17
-      width: 748
+      width: 781
       height: 635
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 374, y: 317.5}
+    m_Translation: {x: 390.5, y: 317.5}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -374
+      x: -390.5
       y: -317.5
-      width: 748
+      width: 781
       height: 635
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_TargetTexture: {fileID: 0}
   m_CurrentColorSpace: 0
-  m_LastWindowPixelSize: {x: 748, y: 652}
+  m_LastWindowPixelSize: {x: 781, y: 652}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000100000100
