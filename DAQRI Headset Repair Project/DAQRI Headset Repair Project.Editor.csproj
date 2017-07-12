@@ -151,6 +151,7 @@
     <Compile Include="Assets\Ps2D\Editor\UnitySpriteLayer.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\Assets\Shaders\Outlined_Diffuse.shader" />
     <None Include="Assets\DAQRI\DaqriVersion.txt" />
     <None Include="Assets\DAQRI\README.txt" />
     <None Include="Assets\DAQRI\System\Resources\Shaders\UIOverlay.shader" />
