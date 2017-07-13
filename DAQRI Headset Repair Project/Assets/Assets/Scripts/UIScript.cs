@@ -8,13 +8,16 @@ public class UIScript : MonoBehaviour {
     public Button StartAnimation;
     public Button ReverseAnimation;
     public Button Quit;
+    public Button Move;
     public List<Animator> AnimotorList;
+    public GameObject TimerCanvas;
     // Use this for initialization
     void Start () {    
         
         StartAnimation.onClick.AddListener(StartAnimationClick);
         ReverseAnimation.onClick.AddListener(ReverseAnimationClick);
         Quit.onClick.AddListener(QuitApp);
+        Move.onClick.AddListener(MoveOB);
     }
 	
 	// Update is called once per frame
@@ -37,5 +40,9 @@ public class UIScript : MonoBehaviour {
     void QuitApp()
     {
         Application.Quit();
+    }
+    void MoveOB()
+    {
+        TimerCanvas.SetActive(true);
     }
 }
