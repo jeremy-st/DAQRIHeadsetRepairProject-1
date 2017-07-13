@@ -11,6 +11,9 @@ public class UIScript : MonoBehaviour {
     public Button Move;
     public List<Animator> AnimotorList;
     public GameObject TimerCanvas;
+    public float letterPause = 0.2f;
+    private IEnumerator coroutine;
+    string message = "";
     // Use this for initialization
     void Start () {    
         
@@ -43,6 +46,21 @@ public class UIScript : MonoBehaviour {
     }
     void MoveOB()
     {
+        coroutine = TypeText();
+        StartCoroutine(coroutine);
         TimerCanvas.SetActive(true);
+    }
+    private IEnumerator TypeText()
+    {
+        var ob = (Text)TimerCanvas.transform.Find("Panel").gameObject.transform.Find("TimerText").gameObject.GetComponent(typeof(Text)); ;
+        Debug.Log(ob);
+        message = "321 ";
+        ob.text = "";
+        foreach (char letter in message.ToCharArray())
+        {
+            ob.text = letter.ToString();
+            yield return new WaitForSeconds(1);
+        }
+        TimerCanvas.SetActive(false);
     }
 }

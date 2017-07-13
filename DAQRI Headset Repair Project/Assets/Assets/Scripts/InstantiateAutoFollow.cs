@@ -16,7 +16,6 @@ public class InstantiateAutoFollow : MonoBehaviour, IPointerClickHandler {
     //DAQRI.BodySpace bodySpace = new DAQRI.BodySpace();
     public void OnPointerClick(PointerEventData eventData)
     {
-        Debug.Log("Clicked");
         myJob = new Job();
         myJob.GO = Content;
         myJob.Start();
@@ -114,15 +113,12 @@ public class InstantiateAutoFollow : MonoBehaviour, IPointerClickHandler {
     }
 
     public static void addComponent(GameObject x)
-    {
-        Debug.Log("Adding Component");
-        x.AddComponent<DAQRI.BodySpace>();
-        Debug.Log("Added");
+    {  
+        //x.AddComponent<DAQRI.BodySpace>();
     }
 
     public static void MyDelay(int seconds)
     {
-        Debug.Log("Waiting");
         DateTime dt = DateTime.Now + TimeSpan.FromSeconds(seconds);
         
         do { } while (DateTime.Now < dt);
