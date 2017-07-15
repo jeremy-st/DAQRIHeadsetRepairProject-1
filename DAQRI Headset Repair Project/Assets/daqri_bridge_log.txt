@@ -1,0 +1,96 @@
+--------------------------------
+Wed Jul 12 10:56:21 2017  -  <daqri_bridge> log opened
+Wed Jul 12 10:56:21 2017  -  Basepath: C:/Users/377389/Documents/DAQRIHeadsetRepairProject/DAQRI Headset Repair Project/Assets/
+Wed Jul 12 10:56:21 2017  -  Executable: Lighter2.x86_64
+Wed Jul 12 10:56:21 2017  -  Data directory: Lighter2_Data
+Wed Jul 12 10:56:21 2017  -  Data directory path: C:/Users/377389/Documents/DAQRIHeadsetRepairProject/DAQRI Headset Repair Project/Assets/Lighter2_Data
+Wed Jul 12 10:56:21 2017  -  Extra directory path: C:/Users/377389/Documents/DAQRIHeadsetRepairProject/DAQRI Headset Repair Project/Assets/Lighter2_Data/extra
+Wed Jul 12 10:56:21 2017  -  Escaped app: Lighter2
+Wed Jul 12 10:56:21 2017  -  Escaped executable: Lighter2.x86_64
+Wed Jul 12 10:56:21 2017  -  Escaped data directory: Lighter2_Data
+Wed Jul 12 10:56:21 2017  -  Creating an SSH session
+Wed Jul 12 10:56:21 2017  -  Creating the Lighter2.desktop file in: C:/Users/377389/Documents/DAQRIHeadsetRepairProject/DAQRI Headset Repair Project/Assets/Lighter2_Data/extra
+Wed Jul 12 10:56:21 2017  -  Creating the Lighter2 file in: C:/Users/377389/Documents/DAQRIHeadsetRepairProject/DAQRI Headset Repair Project/Assets/Lighter2_Data/extra
+Wed Jul 12 10:56:21 2017  -  Lighter2 uninstall script created successfully
+Wed Jul 12 10:56:21 2017  -  Creating the application log file location config file
+Wed Jul 12 10:56:25 2017  -  Creating and SSH channel
+Wed Jul 12 10:56:25 2017  -  Opening the ssh channel session
+Wed Jul 12 10:56:26 2017  -  Requesting the execution of the command on ssh channel
+Wed Jul 12 10:56:26 2017  -  Command executed successfully
+Wed Jul 12 10:56:26 2017  -  Creating and SSH channel
+Wed Jul 12 10:56:26 2017  -  Opening the ssh channel session
+Wed Jul 12 10:56:27 2017  -  Requesting the execution of the command on ssh channel
+Wed Jul 12 10:56:27 2017  -  Command executed successfully
+Wed Jul 12 10:56:27 2017  -  Starting scp
+Wed Jul 12 10:56:27 2017  -  Initializing the scp session
+Wed Jul 12 10:56:28 2017  -  Copying executable: Lighter2.x86_64
+Wed Jul 12 10:56:28 2017  -  Reading file contents of Lighter2.x86_64
+Wed Jul 12 10:56:28 2017  -  Writing file contents of Lighter2.x86_64
+Wed Jul 12 10:56:31 2017  -  Starting scp
+Wed Jul 12 10:56:31 2017  -  Initializing the scp session
+Wed Jul 12 10:56:31 2017  -  Copying executable: Lighter2_Data.zip
+Wed Jul 12 10:56:31 2017  -  Reading file contents of Lighter2_Data.zip
+Wed Jul 12 10:56:31 2017  -  Writing file contents of Lighter2_Data.zip
+Wed Jul 12 10:56:32 2017  -  Creating and SSH channel
+Wed Jul 12 10:56:32 2017  -  Opening the ssh channel session
+Wed Jul 12 10:56:33 2017  -  Requesting the execution of the command on ssh channel
+Wed Jul 12 10:56:34 2017  -  Command executed successfully
+Wed Jul 12 10:56:34 2017  -  Creating and SSH channel
+Wed Jul 12 10:56:34 2017  -  Opening the ssh channel session
+Wed Jul 12 10:56:34 2017  -  Requesting the execution of the command on ssh channel
+Wed Jul 12 10:56:34 2017  -  Command executed successfully
+Wed Jul 12 10:56:34 2017  -  Copying .desktop file to /usr/local/bin/applications/
+Wed Jul 12 10:56:34 2017  -  Creating and SSH channel
+Wed Jul 12 10:56:34 2017  -  Opening the ssh channel session
+Wed Jul 12 10:56:35 2017  -  Requesting the execution of the command on ssh channel
+Wed Jul 12 10:56:35 2017  -  Command executed successfully
+Wed Jul 12 10:56:35 2017  -  Copying .desktop file to /usr/local/bin/applications/
+Wed Jul 12 10:56:35 2017  -  Creating and SSH channel
+Wed Jul 12 10:56:35 2017  -  Opening the ssh channel session
+Wed Jul 12 10:56:36 2017  -  Requesting the execution of the command on ssh channel
+Wed Jul 12 10:56:36 2017  -  Command executed successfully
+Wed Jul 12 10:56:36 2017  -  Setting .desktop file permission inside /usr/local/bin/applications/
+Wed Jul 12 10:56:36 2017  -  Creating and SSH channel
+Wed Jul 12 10:56:36 2017  -  Opening the ssh channel session
+Wed Jul 12 10:56:37 2017  -  Requesting the execution of the command on ssh channel
+Wed Jul 12 10:56:37 2017  -  Command executed successfully
+Wed Jul 12 10:56:37 2017  -  Copying .desktop file to /usr/share/applications/
+Wed Jul 12 10:56:37 2017  -  Creating and SSH channel
+Wed Jul 12 10:56:37 2017  -  Opening the ssh channel session
+Wed Jul 12 10:56:38 2017  -  Requesting the execution of the command on ssh channel
+Wed Jul 12 10:56:38 2017  -  Command executed successfully
+Wed Jul 12 10:56:38 2017  -  Setting .desktop file permissions inside /usr/share/applications/
+Wed Jul 12 10:56:38 2017  -  Creating and SSH channel
+Wed Jul 12 10:56:38 2017  -  Opening the ssh channel session
+Wed Jul 12 10:56:38 2017  -  Requesting the execution of the command on ssh channel
+Wed Jul 12 10:56:39 2017  -  Command executed successfully
+Wed Jul 12 10:56:39 2017  -  Copying uninstall file to /usr/local/bin/daqri_bridge/
+Wed Jul 12 10:56:39 2017  -  Creating and SSH channel
+Wed Jul 12 10:56:39 2017  -  Opening the ssh channel session
+Wed Jul 12 10:56:39 2017  -  Requesting the execution of the command on ssh channel
+Wed Jul 12 10:56:39 2017  -  Command executed successfully
+Wed Jul 12 10:56:40 2017  -  Creating and SSH channel
+Wed Jul 12 10:56:40 2017  -  Opening the ssh channel session
+Wed Jul 12 10:56:40 2017  -  Requesting the execution of the command on ssh channel
+Wed Jul 12 10:56:40 2017  -  Command executed successfully
+Wed Jul 12 10:56:40 2017  -  Setting uninstall file permissions inside /usr/share/applications/
+Wed Jul 12 10:56:40 2017  -  Creating and SSH channel
+Wed Jul 12 10:56:40 2017  -  Opening the ssh channel session
+Wed Jul 12 10:56:41 2017  -  Requesting the execution of the command on ssh channel
+Wed Jul 12 10:56:41 2017  -  Command executed successfully
+Wed Jul 12 10:56:41 2017  -  Creating and SSH channel
+Wed Jul 12 10:56:41 2017  -  Opening the ssh channel session
+Wed Jul 12 10:56:42 2017  -  Requesting the execution of the command on ssh channel
+Wed Jul 12 10:56:42 2017  -  Command executed successfully
+Wed Jul 12 10:56:42 2017  -  Creating and SSH channel
+Wed Jul 12 10:56:42 2017  -  Opening the ssh channel session
+Wed Jul 12 10:56:42 2017  -  Requesting the execution of the command on ssh channel
+Wed Jul 12 10:56:42 2017  -  Command executed successfully
+Wed Jul 12 10:56:43 2017  -  Creating and SSH channel
+Wed Jul 12 10:56:43 2017  -  Opening the ssh channel session
+Wed Jul 12 10:56:43 2017  -  Requesting the execution of the command on ssh channel
+Wed Jul 12 10:56:43 2017  -  Command executed successfully
+utility finished with exit code: 0
+Success
+Wed Jul 12 10:56:43 2017  -  <unity_deploy> log closed
+--------------------------------

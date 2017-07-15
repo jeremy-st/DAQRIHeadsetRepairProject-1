@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Scenes/Blown Up Models.unity
+  isLoaded: 1
+  isActive: 1

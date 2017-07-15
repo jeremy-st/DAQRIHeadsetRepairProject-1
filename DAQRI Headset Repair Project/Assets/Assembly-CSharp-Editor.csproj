@@ -67,7 +67,11 @@
      <None Include="Assets\DAQRI\System\Resources\Shaders\UIOverlay.shader" />
      <None Include="Assets\DAQRI\README.txt" />
      <None Include="Assets\Shaders\Outlined_Diffuse.shader" />
+     <None Include="Assets\Move\Shaders\XRay.shader" />
      <None Include="Assets\DAQRI\System\DaqriVersion.txt" />
+     <None Include="Assets\Move\Shaders\EdgeGradientEmissive.shader" />
+     <None Include="Assets\Move\Shaders\DC_JetEngine_Jetwash_viz.shader" />
+     <None Include="Assets\Move\Shaders\Shield.shader" />
  <Reference Include="UnityEditor.Advertisements">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll</HintPath>
  </Reference>
@@ -124,6 +128,18 @@
  </Reference>
  <Reference Include="UnityEditor.WindowsStandalone.Extensions">
  <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="AWSSDK.CognitoIdentity">
+ <HintPath>C:/Users/377389/Documents/DAQRIHeadsetRepairProject/DAQRI Headset Repair Project/Assets/Assets/_dqAnalytics/AWSSDK/AWSSDK.CognitoIdentity.dll</HintPath>
+ </Reference>
+ <Reference Include="AWSSDK.Core">
+ <HintPath>C:/Users/377389/Documents/DAQRIHeadsetRepairProject/DAQRI Headset Repair Project/Assets/Assets/_dqAnalytics/AWSSDK/AWSSDK.Core.dll</HintPath>
+ </Reference>
+ <Reference Include="AWSSDK.MobileAnalytics">
+ <HintPath>C:/Users/377389/Documents/DAQRIHeadsetRepairProject/DAQRI Headset Repair Project/Assets/Assets/_dqAnalytics/AWSSDK/AWSSDK.MobileAnalytics.dll</HintPath>
+ </Reference>
+ <Reference Include="AWSSDK.SecurityToken">
+ <HintPath>C:/Users/377389/Documents/DAQRIHeadsetRepairProject/DAQRI Headset Repair Project/Assets/Assets/_dqAnalytics/AWSSDK/AWSSDK.SecurityToken.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
