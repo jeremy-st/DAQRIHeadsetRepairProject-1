@@ -76,8 +76,24 @@
     <Reference Include="UnityEditor">
       <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
     </Reference>
+    <Reference Include="AWSSDK.CognitoIdentity">
+      <HintPath>Assets\_dqAnalytics\AWSSDK\AWSSDK.CognitoIdentity.dll</HintPath>
+    </Reference>
+    <Reference Include="AWSSDK.Core">
+      <HintPath>Assets\_dqAnalytics\AWSSDK\AWSSDK.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="AWSSDK.MobileAnalytics">
+      <HintPath>Assets\_dqAnalytics\AWSSDK\AWSSDK.MobileAnalytics.dll</HintPath>
+    </Reference>
+    <Reference Include="AWSSDK.SecurityToken">
+      <HintPath>Assets\_dqAnalytics\AWSSDK\AWSSDK.SecurityToken.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\ACG\Scripts\ExitApp.cs" />
+    <Compile Include="Assets\ACG\Scripts\KeyboardInputManager.cs" />
+    <Compile Include="Assets\ACG\Scripts\Utilities\MonoSingleton.cs" />
+    <Compile Include="Assets\ACG\Scripts\VideoBackgroundManager.cs" />
     <Compile Include="Assets\DAQRI\Scripts\AdditionalControls.cs" />
     <Compile Include="Assets\DAQRI\Scripts\CalibrationControls.cs" />
     <Compile Include="Assets\DAQRI\Scripts\CalibrationTweak.cs" />
@@ -136,6 +152,7 @@
     <Compile Include="Assets\DAQRI\System\Scripts\IServiceManagerController.cs" />
     <Compile Include="Assets\DAQRI\System\Scripts\ITrackedObjectEventHandler.cs" />
     <Compile Include="Assets\DAQRI\System\Scripts\IVisionUnityPlugin.cs" />
+    <Compile Include="Assets\DAQRI\System\Scripts\JsonHelper.cs" />
     <Compile Include="Assets\DAQRI\System\Scripts\KeyboardIMU.cs" />
     <Compile Include="Assets\DAQRI\System\Scripts\LetterSpacing.cs" />
     <Compile Include="Assets\DAQRI\System\Scripts\MonoNeedingParentCanvas.cs" />
@@ -168,6 +185,16 @@
     <Compile Include="Assets\DAQRI\System\Scripts\VideoBackdrop.cs" />
     <Compile Include="Assets\DAQRI\System\Scripts\VisionUnityAbstraction.cs" />
     <Compile Include="Assets\DAQRI\System\Scripts\VisionUnityPlugin.cs" />
+    <Compile Include="Assets\Move\Scripts\AnimatorBoolSwitch.cs" />
+    <Compile Include="Assets\Move\Scripts\AudioClipHandler.cs" />
+    <Compile Include="Assets\Move\Scripts\AutoExit.cs" />
+    <Compile Include="Assets\Move\Scripts\CountDownTimer.cs" />
+    <Compile Include="Assets\Move\Scripts\FaceDisplay.cs" />
+    <Compile Include="Assets\Move\Scripts\FireAnimatorEvent.cs" />
+    <Compile Include="Assets\Move\Scripts\LoadScene.cs" />
+    <Compile Include="Assets\Move\Scripts\ToggleGameObject.cs" />
+    <Compile Include="Assets\Move\Scripts\TurbineController.cs" />
+    <Compile Include="Assets\Scripts\BlowupController.cs" />
     <Compile Include="Assets\Scripts\InstantiateAutoFollow.cs" />
     <Compile Include="Assets\Scripts\InstantiatePart.cs" />
     <Compile Include="Assets\Scripts\OBClick.cs" />
@@ -177,6 +204,12 @@
     <Compile Include="Assets\Scripts\TextTyper.cs" />
     <Compile Include="Assets\Scripts\UIScript.cs" />
     <Compile Include="Assets\Scripts\WorkInstructionsController.cs" />
+    <Compile Include="Assets\_dqAnalytics\AWSSDK\Examples\AmazonMobileAnalyticsSample.cs" />
+    <Compile Include="Assets\_dqAnalytics\Scripts\AnalyticsManager.cs" />
+    <Compile Include="Assets\_dqAnalytics\Scripts\EventWrapper.cs" />
+    <Compile Include="Assets\_dqAnalytics\Scripts\_Events\DwellEvent.cs" />
+    <Compile Include="Assets\_dqAnalytics\Scripts\_Events\GazeEvent.cs" />
+    <Compile Include="Assets\_dqAnalytics\Scripts\_Events\ToggleEvent.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\DAQRI\README.txt" />
@@ -184,6 +217,10 @@
     <None Include="Assets\DAQRI\System\DaqriVersion.txt" />
     <None Include="Assets\DAQRI\System\Resources\Shaders\UIOverlay.shader" />
     <None Include="Assets\DAQRI\System\Shaders\TrackedObject.shader" />
+    <None Include="Assets\Move\Shaders\DC_JetEngine_Jetwash_viz.shader" />
+    <None Include="Assets\Move\Shaders\EdgeGradientEmissive.shader" />
+    <None Include="Assets\Move\Shaders\Shield.shader" />
+    <None Include="Assets\Move\Shaders\XRay.shader" />
     <None Include="Assets\Shaders\Outlined_Diffuse.shader" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

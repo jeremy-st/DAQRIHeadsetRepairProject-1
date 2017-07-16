@@ -339,7 +339,7 @@ namespace DAQRI {
 		}
 
 		private void calculateAspectRatio(){
-			aspectRatio = width / height;
+            aspectRatio = (float)width / height;
 		}
 
 		private void updateCameraRawData()

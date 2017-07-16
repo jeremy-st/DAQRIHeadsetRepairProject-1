@@ -112,6 +112,18 @@
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
       <HintPath>Library\UnityAssemblies\SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
+    <Reference Include="AWSSDK.CognitoIdentity">
+      <HintPath>Assets\_dqAnalytics\AWSSDK\AWSSDK.CognitoIdentity.dll</HintPath>
+    </Reference>
+    <Reference Include="AWSSDK.Core">
+      <HintPath>Assets\_dqAnalytics\AWSSDK\AWSSDK.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="AWSSDK.MobileAnalytics">
+      <HintPath>Assets\_dqAnalytics\AWSSDK\AWSSDK.MobileAnalytics.dll</HintPath>
+    </Reference>
+    <Reference Include="AWSSDK.SecurityToken">
+      <HintPath>Assets\_dqAnalytics\AWSSDK\AWSSDK.SecurityToken.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assets.csproj">
@@ -143,6 +155,10 @@
     <None Include="Assets\DAQRI\System\DaqriVersion.txt" />
     <None Include="Assets\DAQRI\System\Resources\Shaders\UIOverlay.shader" />
     <None Include="Assets\DAQRI\System\Shaders\TrackedObject.shader" />
+    <None Include="Assets\Move\Shaders\DC_JetEngine_Jetwash_viz.shader" />
+    <None Include="Assets\Move\Shaders\EdgeGradientEmissive.shader" />
+    <None Include="Assets\Move\Shaders\Shield.shader" />
+    <None Include="Assets\Move\Shaders\XRay.shader" />
     <None Include="Assets\Shaders\Outlined_Diffuse.shader" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

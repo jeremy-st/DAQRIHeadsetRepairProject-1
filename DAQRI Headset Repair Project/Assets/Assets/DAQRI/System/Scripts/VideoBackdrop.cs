@@ -26,12 +26,13 @@ namespace DAQRI {
 			SetTexture( ServiceManager.Instance.GetColorCameraTexture());
 			//DSHUnityPlugin.Instance.CameraGetPose(posRaw, rotRaw);
 
-			float visionAspect = ServiceManager.Instance.GetVisionAspectRatio ();
+			float visionAspect = ServiceManager.Instance.GetColorCameraAspectRatio();
 			float farClipPlane = ServiceManager.Instance.GetFarClipPlane ();
-			float visionFieldOfView = ServiceManager.Instance.GetVisionFieldOfView ();
+			float visionFieldOfView = ServiceManager.Instance.GetColorCameraFieldOfView ();
 
 			var rot = ServiceManager.Instance.GetColorCameraPose_Rotation();
-			var pos = ServiceManager.Instance.GetColorCameraPose_Position();//ServiceManager.Vector3FromFloatArray (posRaw);
+			var pos = ServiceManager.Instance.GetColorCameraPose_Position();
+
 
 			transform.localPosition = CalculateLocalPosition (pos, rot, farClipPlane);
 			transform.localRotation = rot;
@@ -39,7 +40,7 @@ namespace DAQRI {
 		}
 
 		void OnEnable () {
-            bool isColorCameraHDOn = true;/*ServiceManager.Instance.GetColorCameraHDOnOff();*/
+			bool isColorCameraHDOn = ServiceManager.Instance.GetColorCameraHDOnOff();
 			if (isColorCameraHDOn) {
 				ServiceManager.Instance.RegisterVideoTextureUser (this, true);
 			} else {
