@@ -197,6 +197,8 @@
     <Compile Include="Assets\Scripts\BlowupController.cs" />
     <Compile Include="Assets\Scripts\InstantiateAutoFollow.cs" />
     <Compile Include="Assets\Scripts\InstantiatePart.cs" />
+    <Compile Include="Assets\Scripts\InstructionsController.cs" />
+    <Compile Include="Assets\Scripts\MainMenuController.cs" />
     <Compile Include="Assets\Scripts\OBClick.cs" />
     <Compile Include="Assets\Scripts\PauseVideoCloseVideo.cs" />
     <Compile Include="Assets\Scripts\StreamVideo.cs" />

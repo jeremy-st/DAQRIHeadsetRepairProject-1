@@ -6,11 +6,10 @@ public class WorkInstructionsController : MonoBehaviour {
 
     public List<GameObject> steps;
 
-    private int currentIndex;
+    private int currentIndex =0;
 
     void Start()
     {
-        currentIndex = 0;
         foreach (GameObject step in steps)
         {
             step.gameObject.SetActive(false);
@@ -18,7 +17,17 @@ public class WorkInstructionsController : MonoBehaviour {
 
         steps[currentIndex].gameObject.SetActive(true);
     }
-
+    public void EnableorDisable(GameObject Enable_Disable)
+    {
+        if (Enable_Disable.active)
+        {
+            Enable_Disable.SetActive(false);
+        }
+        else
+        {
+            Enable_Disable.SetActive(true);
+        }
+    }
     public void GoToNextStep()
     {
         if (currentIndex <= steps.Count - 2)

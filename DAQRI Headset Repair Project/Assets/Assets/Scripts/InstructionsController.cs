@@ -2,10 +2,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.EventSystems;
-using UnityEngine.UI;
 
-public class BlowupController : MonoBehaviour {
+public class InstructionsController : MonoBehaviour
+{
 
     [SerializeField]
     private float maxDistance = 20f;
@@ -26,44 +25,21 @@ public class BlowupController : MonoBehaviour {
 
     [SerializeField]
     public GameObject experienceMenu;
-    [SerializeField]
-    public bool FromMainMenu;
     private GameObject reticle;
-    public List<Animator> AnimotorList;
-    [SerializeField]
-    public GameObject MainMenu;
-    [SerializeField]
-    public GameObject Instructions;
 
     [HideInInspector]
     public bool value;
-
-    public void SetPreviousScreen(bool set)
-    {
-        FromMainMenu = set;
-    }
-    public void GoToPreviousScreen()
-    {
-        try
-        {
-            EventSystem eventSystem = EventSystem.current;
-            var RIM = (ReticleInputModule)eventSystem.gameObject.GetComponent(typeof(ReticleInputModule));
-            GameObject tmp = GameObject.Find("Reticle Text");
-            Text txt = tmp.GetComponent<Text>();
-            txt.text = string.Empty;
-        }
-        catch { }
-        gameObject.SetActive(false);
-        if (FromMainMenu)
-            MainMenu.SetActive(true);
-        else
-            Instructions.SetActive(true);
-    }
 
     public void RepositionCanvas()
     {
         SwitchUI(false);
         AttachCanvas();
+    }
+
+    public void LaunchBlowUp(GameObject BlowUpCanvas)
+    {
+        BlowUpCanvas.SetActive(true);
+        this.gameObject.SetActive(false);
     }
 
     public void OnCountdownFinished()
@@ -79,20 +55,19 @@ public class BlowupController : MonoBehaviour {
 
     private void Awake()
     {
-        currentDisplayManager = DisplayManager.Instance;       
+        currentDisplayManager = DisplayManager.Instance;
     }
 
     private IEnumerator Start()
     {
-        Debug.Log(FromMainMenu);
         yield return new WaitForSeconds(initialTimeDelay);
         if (reticle == null)
         {
             reticle = FindObjectOfType<Reticle>().gameObject;
         }
-        TransformSync();        
+        TransformSync();
         AttachWtihoutTimer();
-        DetachCanvas();  
+        DetachCanvas();
     }
 
     private void Update()
@@ -143,15 +118,5 @@ public class BlowupController : MonoBehaviour {
         transform.SetParent(null, true);
         TransformSync();
         SwitchUI(true);
-    }  
-
-    public void ToggleBool()
-    {        
-        value = !value; 
-        foreach (Animator ani in AnimotorList)
-        {
-            ani.SetBool("Start", value);
-        }
     }
-
 }
