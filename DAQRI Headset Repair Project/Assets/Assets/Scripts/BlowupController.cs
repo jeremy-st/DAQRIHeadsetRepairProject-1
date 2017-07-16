@@ -30,12 +30,15 @@ public class BlowupController : MonoBehaviour {
     public bool FromMainMenu;
     private GameObject reticle;
     public List<Animator> AnimotorList;
+    public static List<GameObject> UndoList = new List<GameObject>();
     [SerializeField]
     public GameObject MainMenu;
     [SerializeField]
     public GameObject Instructions;
     [SerializeField]
     public GameObject ResetPanel;
+    [SerializeField]
+    public GameObject UndoPanel;
 
     [HideInInspector]
     public bool value;
@@ -90,14 +93,40 @@ public class BlowupController : MonoBehaviour {
             {
                 img.GetComponent<Image>().color = new Color32(255, 255, 255, 255);
             }
-            var on = Remove.transform.Find("Text_Remove_On");
+            var on = Remove.transform.Find("Remove_On");
             on.gameObject.SetActive(true);
-            var off = Remove.transform.Find("Text_Remove_Off");
+            var off = Remove.transform.Find("Remove_Off");
             off.gameObject.SetActive(false);
 
         }
         RemoveStatus = !RemoveStatus;
         ResetPanel.SetActive(false);
+    }
+    public void UndoRemovingComponent(GameObject Remove)
+    {
+        if (UndoList.Count > 0)
+        {
+            ClearText();
+            var ob = UndoList[UndoList.Count - 1];
+            ob.SetActive(true);
+            UndoList.Remove(ob);
+            if (UndoList.Count == 0)
+            {
+                var imgs = reticle.GetComponentsInChildren<Image>(true);
+                foreach (var img in imgs)
+                {
+                    img.GetComponent<Image>().color = new Color32(255, 255, 255, 255);
+                }
+                var on = Remove.transform.Find("Remove_On");
+                on.gameObject.SetActive(true);
+                var off = Remove.transform.Find("Remove_Off");
+                off.gameObject.SetActive(false);
+                ResetPanel.SetActive(false);
+                UndoPanel.SetActive(false);
+                RemoveStatus = !RemoveStatus;
+            }            
+            
+        }
     }
     private void ClearText()
     {
@@ -155,10 +184,20 @@ public class BlowupController : MonoBehaviour {
             if(!ani.gameObject.active)
             { setRest = true; break; }
         }
-        if(setRest)
+        if (setRest)
+        {
             ResetPanel.SetActive(true);
+            UndoPanel.SetActive(true);
+            experienceMenu.transform.localPosition = new Vector3(0.0184f, 0.143f, 1.932f);
+        }
         else
+        {
             ResetPanel.SetActive(false);
+            UndoPanel.SetActive(false);
+            experienceMenu.transform.localPosition = new Vector3(0.1155f, 0.143f, 1.932f);
+            if (UndoList != null)
+                UndoList.Clear();
+        }
     }
 
     private void ClampDistance()

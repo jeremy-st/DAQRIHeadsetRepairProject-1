@@ -55,6 +55,7 @@ public class OBClick : MonoBehaviour, IPointerClickHandler
         }
         else
         {
+            BlowupController.UndoList.Add(gameobj);
             gameobj.SetActive(false);
         }
     }
