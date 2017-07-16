@@ -164,7 +164,6 @@ public class BlowupController : MonoBehaviour {
 
     private IEnumerator Start()
     {
-        Debug.Log(FromMainMenu);
         yield return new WaitForSeconds(initialTimeDelay);
         if (reticle == null)
         {

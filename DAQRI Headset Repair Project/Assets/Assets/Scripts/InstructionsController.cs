@@ -29,22 +29,41 @@ public class InstructionsController : MonoBehaviour
 
     [HideInInspector]
     public bool value;
+    [HideInInspector]
+    public static bool worldspace;
 
     public void RepositionCanvas()
     {
-        SwitchUI(false);
-        AttachCanvas();
+        if (!worldspace)
+        {
+            SwitchUI(false);
+            AttachCanvas();
+        }
+        else
+        {
+            mainCanvas.SetActive(false);
+            SwitchUI(false);
+            disabledCanvas.SetActive(true);
+            TransformSync();
+        }
     }
 
     public void LaunchBlowUp(GameObject BlowUpCanvas)
     {
         BlowUpCanvas.SetActive(true);
-        this.gameObject.SetActive(false);
+        gameObject.SetActive(false);
     }
 
     public void OnCountdownFinished()
     {
         DetachCanvas();
+    }
+    public void BodySpaceCountDownFinished()
+    {
+        mainCanvas.SetActive(true);
+        mainCanvas.transform.localPosition = Vector3.zero;        
+        TransformSync();
+        SwitchUI(true);
     }
 
     private void SwitchUI(bool activate)
@@ -118,5 +137,21 @@ public class InstructionsController : MonoBehaviour
         transform.SetParent(null, true);
         TransformSync();
         SwitchUI(true);
+    }
+    public void ChangePostion(GameObject BodyspaceAttach)
+    {        
+        if (worldspace)
+        {
+            gameObject.transform.parent = null;
+            BodyspaceAttach.SetActive(false);
+        }
+        else
+        {            
+            gameObject.transform.parent = BodyspaceAttach.transform;
+            BodyspaceAttach.transform.position = currentDisplayManager.transform.position + new Vector3(0, 10, 0);
+            gameObject.transform.localRotation = new Quaternion(0f, 0f, 0f, 0f);
+            BodyspaceAttach.SetActive(true);
+        }
+        worldspace = !worldspace;
     }
 }

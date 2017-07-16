@@ -20,6 +20,7 @@ namespace DAQRI.Turbine.Scripts
         [SerializeField]
         private AudioSource currentAudioSource;
         public UnityEvent CountDownFinished;
+        public UnityEvent BodySpaceCountDownFinished;
 
         private void OnEnable()
         {
@@ -67,9 +68,19 @@ namespace DAQRI.Turbine.Scripts
 
                 if (timeLeft <= 0)
                 {
-                    if (CountDownFinished.GetPersistentEventCount() > 0)
+                    if (!InstructionsController.worldspace)
                     {
-                        CountDownFinished.Invoke();
+                        if (CountDownFinished.GetPersistentEventCount() > 0)
+                        {
+                            CountDownFinished.Invoke();
+                        }
+                    }
+                    else
+                    {
+                        if (BodySpaceCountDownFinished.GetPersistentEventCount() > 0)
+                        {
+                            BodySpaceCountDownFinished.Invoke();
+                        }
                     }
                     gameObject.SetActive(false);
                 }
