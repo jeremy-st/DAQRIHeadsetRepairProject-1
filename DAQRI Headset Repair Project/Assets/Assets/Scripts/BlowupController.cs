@@ -34,15 +34,72 @@ public class BlowupController : MonoBehaviour {
     public GameObject MainMenu;
     [SerializeField]
     public GameObject Instructions;
+    [SerializeField]
+    public GameObject ResetPanel;
 
     [HideInInspector]
     public bool value;
+    [HideInInspector]
+    public static bool RemoveStatus;
 
     public void SetPreviousScreen(bool set)
     {
         FromMainMenu = set;
     }
     public void GoToPreviousScreen()
+    {
+        ClearText();
+        gameObject.SetActive(false);
+        if (FromMainMenu)
+            MainMenu.SetActive(true);
+        else
+            Instructions.SetActive(true);
+    }
+    public void Removecomponents()
+    {
+        ClearText();
+        RemoveStatus = !RemoveStatus;
+        var imgs = reticle.GetComponentsInChildren<Image>(true);
+        if (RemoveStatus)
+        {
+            foreach (var img in imgs)
+            {
+                img.GetComponent<Image>().color = new Color32(255, 0, 0, 255);
+            }
+        }
+        else
+        {
+            foreach (var img in imgs)
+            {
+                img.GetComponent<Image>().color = new Color32(255, 255, 255, 255);
+            }
+        }
+    }
+
+    public void ResetComponents(GameObject Remove)
+    {
+        ClearText();
+        foreach (Animator ani in AnimotorList)
+        {
+            ani.gameObject.SetActive(true);
+        }
+        if (RemoveStatus)
+        {
+            var imgs = reticle.GetComponentsInChildren<Image>(true);
+            foreach (var img in imgs)
+            {
+                img.GetComponent<Image>().color = new Color32(255, 255, 255, 255);
+            }
+            var on = Remove.transform.Find("Text_Remove_On");
+            on.gameObject.SetActive(true);
+            var off = Remove.transform.Find("Text_Remove_Off");
+            off.gameObject.SetActive(false);
+
+        }
+        RemoveStatus = !RemoveStatus;
+        ResetPanel.SetActive(false);
+    }
+    private void ClearText()
     {
         try
         {
@@ -53,13 +110,7 @@ public class BlowupController : MonoBehaviour {
             txt.text = string.Empty;
         }
         catch { }
-        gameObject.SetActive(false);
-        if (FromMainMenu)
-            MainMenu.SetActive(true);
-        else
-            Instructions.SetActive(true);
     }
-
     public void RepositionCanvas()
     {
         SwitchUI(false);
@@ -98,6 +149,16 @@ public class BlowupController : MonoBehaviour {
     private void Update()
     {
         ClampDistance();
+        bool setRest = false;
+        foreach (Animator ani in AnimotorList)
+        {
+            if(!ani.gameObject.active)
+            { setRest = true; break; }
+        }
+        if(setRest)
+            ResetPanel.SetActive(true);
+        else
+            ResetPanel.SetActive(false);
     }
 
     private void ClampDistance()
