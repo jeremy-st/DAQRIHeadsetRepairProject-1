@@ -132,6 +132,16 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Battlehub\MeshDeformer2\Scripts\Editor\ControlPointEditor.cs" />
+    <Compile Include="Assets\Battlehub\MeshDeformer2\Scripts\Editor\MeshDeformerEditor.cs" />
+    <Compile Include="Assets\Battlehub\MeshDeformer2\Scripts\Editor\MeshDeformerPostprocessor.cs" />
+    <Compile Include="Assets\Battlehub\MeshDeformer2\Scripts\Editor\ScaffoldEditor.cs" />
+    <Compile Include="Assets\Battlehub\SplineEditor\Scripts\Editor\SplineBaseEditor.cs" />
+    <Compile Include="Assets\Battlehub\SplineEditor\Scripts\Editor\SplineControlPointEditor.cs" />
+    <Compile Include="Assets\Battlehub\SplineEditor\Scripts\Editor\SplineEditor.cs" />
+    <Compile Include="Assets\Battlehub\SplineEditor\Scripts\Editor\SplineMenu.cs" />
+    <Compile Include="Assets\Battlehub\Wires2\Scripts\Editor\WireEditor.cs" />
+    <Compile Include="Assets\Battlehub\Wires2\Scripts\Editor\WireMenu.cs" />
     <Compile Include="Assets\DAQRI\System\Scripts\Editor\BuildToSmartHelmet\DaqriBridge.cs" />
     <Compile Include="Assets\DAQRI\System\Scripts\Editor\BuildToSmartHelmet\ProcessProgressWindow.cs" />
     <Compile Include="Assets\DAQRI\System\Scripts\Editor\BuildToSmartHelmet\SmartDevicePreferences.cs" />
@@ -148,8 +158,15 @@
     <Compile Include="Assets\DAQRI\System\Scripts\Editor\ScrollViewEditor.cs" />
     <Compile Include="Assets\DAQRI\System\Scripts\Editor\TexturePostprocessor.cs" />
     <Compile Include="Assets\DAQRI\System\Scripts\Editor\TrackedObjectEditor.cs" />
+    <Compile Include="Assets\Editor\BezierCurveInspector.cs" />
+    <Compile Include="Assets\Editor\BezierSplineInspector.cs" />
+    <Compile Include="Assets\Editor\LineInspector.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\Battlehub\RTHandles\Shaders\Resources\Shape.shader" />
+    <None Include="Assets\Battlehub\RTHandles\Shaders\Resources\VertexColor.shader" />
+    <None Include="Assets\Battlehub\SplineEditor\Shaders\Resources\SSBillboard.shader" />
+    <None Include="Assets\Battlehub\SplineEditor\Shaders\Resources\Spline.shader" />
     <None Include="Assets\DAQRI\README.txt" />
     <None Include="Assets\DAQRI\System\DaqriDocsLink.txt" />
     <None Include="Assets\DAQRI\System\DaqriVersion.txt" />
