@@ -81,10 +81,13 @@ public class BlowupController : MonoBehaviour {
 
     public void ResetComponents(GameObject Remove)
     {
+        Debug.Log("HI"); ;
+        Debug.Log(value);
         ClearText();
         foreach (Animator ani in AnimotorList)
         {
             ani.gameObject.SetActive(true);
+            ani.SetBool("Start", value);
         }
         if (RemoveStatus)
         {
@@ -97,9 +100,8 @@ public class BlowupController : MonoBehaviour {
             on.gameObject.SetActive(true);
             var off = Remove.transform.Find("Remove_Off");
             off.gameObject.SetActive(false);
-
-        }
-        RemoveStatus = !RemoveStatus;
+            RemoveStatus = !RemoveStatus;
+        }        
         ResetPanel.SetActive(false);
     }
     public void UndoRemovingComponent(GameObject Remove)
