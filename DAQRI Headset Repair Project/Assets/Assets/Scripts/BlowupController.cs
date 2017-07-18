@@ -40,6 +40,8 @@ public class BlowupController : MonoBehaviour {
     [SerializeField]
     public GameObject UndoPanel;
 
+    private GameObject[] wires;
+
     [HideInInspector]
     public bool value;
     [HideInInspector]
@@ -173,7 +175,8 @@ public class BlowupController : MonoBehaviour {
         }
         TransformSync();        
         AttachWtihoutTimer();
-        DetachCanvas();  
+        DetachCanvas();
+        wires = GameObject.FindGameObjectsWithTag("Wire");
     }
 
     private void Update()
@@ -248,11 +251,16 @@ public class BlowupController : MonoBehaviour {
 
     public void ToggleBool()
     {        
-        value = !value; 
+        value = !value;        
+        foreach (var wire in wires)
+        {
+            wire.SetActive(!value);
+        }
         foreach (Animator ani in AnimotorList)
         {
             ani.SetBool("Start", value);
         }
+        
     }
 
 }
