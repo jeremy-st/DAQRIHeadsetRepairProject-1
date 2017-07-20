@@ -20,7 +20,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 6}
-  m_MinSize: {x: 950, y: 300}
+  m_MinSize: {x: 950, y: 392}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -42,10 +42,10 @@ MonoBehaviour:
     y: 30
     width: 1280
     height: 891
-  m_MinSize: {x: 683, y: 342}
-  m_MaxSize: {x: 12008, y: 8042}
+  m_MinSize: {x: 681, y: 342}
+  m_MaxSize: {x: 12006, y: 8042}
   vertical: 0
-  controlID: 49
+  controlID: 11
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -210,7 +210,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 342}
   m_MaxSize: {x: 8006, y: 8042}
   vertical: 1
-  controlID: 50
+  controlID: 12
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -234,7 +234,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 221}
   m_MaxSize: {x: 8006, y: 4021}
   vertical: 0
-  controlID: 51
+  controlID: 13
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -499,19 +499,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets
+    - Assets/Shaders
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/Shaders
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\ITAiid014\Desktop\SourceTree\DAQRI Headset Repair Project\Assets
   m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 111}
-    m_SelectedIDs: 7a450000
-    m_LastClickedID: 17786
-    m_ExpandedIDs: 000000005a260000d22600005e290000022d0000be2e0000c02e0000222f0000883100007a320000e033000050340000dc34000084870000
+    scrollPos: {x: 0, y: 650}
+    m_SelectedIDs: 702d0000
+    m_LastClickedID: 11632
+    m_ExpandedIDs: 000000005a260000d22600005e290000022d0000be2e0000c02e0000222f0000883100007a320000e033000050340000dc3400008487000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -564,9 +564,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: ae7a0000
-    m_LastClickedInstanceID: 31406
-    m_HadKeyboardFocusLastEvent: 0
+    m_SelectedInstanceIDs: 50600000
+    m_LastClickedInstanceID: 24656
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000864b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -655,9 +655,9 @@ MonoBehaviour:
     height: 538
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 00580000
-    m_LastClickedID: 22528
-    m_ExpandedIDs: e6fbffff00000000f2360000a237000006380000f8400000dc440000f6450000884b0000d24b0000424d0000c84e0000d04e0000da4e0000824f000020520000945300008654000068560000be560000c8560000d256000020570000de57000028580000ea580000c4590000345d0000ee5d0000a85f000004630000ea66000044670000
+    m_SelectedIDs: 345d0000
+    m_LastClickedID: 23860
+    m_ExpandedIDs: 9674feffe6fbffff00000000d8390000dc44000032490000884b0000964e0000da4e0000d0520000e4530000ea580000345d00001c5e0000a05f000048610000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -707,14 +707,14 @@ MonoBehaviour:
     width: 632
     height: 538
   m_SceneLighting: 1
-  lastFramingTime: 9061.233525636138
+  lastFramingTime: 4914.806578249253
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -0.018220276, y: -0.39061475, z: 2.4107015}
+    m_Target: {x: 0.033591565, y: -0.023042371, z: 1.9673045}
     speed: 2
-    m_Value: {x: -0.018220276, y: -0.39061475, z: 2.4107015}
+    m_Value: {x: 0.033591565, y: -0.023042371, z: 1.9673045}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -737,13 +737,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: -0.12971778, y: -0.072801, z: 0.010875364, w: -0.98905766}
+    m_Target: {x: -0.20121643, y: -0.19384362, z: 0.042192135, w: -0.9595424}
     speed: 2
-    m_Value: {x: -0.12971778, y: -0.072801, z: 0.010875364, w: -0.9890576}
+    m_Value: {x: -0.2011596, y: -0.19378887, z: 0.042180218, w: -0.9592714}
   m_Size:
-    m_Target: 1.1516366
+    m_Target: 0.34523445
     speed: 2
-    m_Value: 1.1516366
+    m_Value: 0.34523445
   m_Ortho:
     m_Target: 0
     speed: 2
