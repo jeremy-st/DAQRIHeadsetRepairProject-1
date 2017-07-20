@@ -1,2 +1,25 @@
 Base path: C:/Program Files/Unity/Editor/Data
 Cmd: initializeCompiler
+Cmd: preprocess
+  insize=1158 outsize=309 ok=1
+Cmd: preprocess
+  insize=3076 outsize=1249 ok=1
+Cmd: preprocess
+  insize=2238 outsize=1091 ok=1
+Cmd: preprocess
+  insize=8495 outsize=4457 ok=1
+Cmd: preprocess
+  insize=987 outsize=466 ok=1
+Cmd: preprocess
+  insize=1167 outsize=1270 ok=1
+Cmd: preprocess
+  error: 1 plat 20 at (108): Both vertex and fragment programs must be present in a shader snippet. Excluding it from compilation.
+  insize=3061 outsize=2325 ok=1
+Cmd: preprocess
+  insize=1320 outsize=1324 ok=1
+Cmd: preprocess
+  insize=1202 outsize=499 ok=1
+Cmd: preprocess
+  insize=1508 outsize=549 ok=1
+Cmd: preprocess
+  insize=1046 outsize=525 ok=1
