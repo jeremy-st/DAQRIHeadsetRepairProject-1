@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Headset POC
+Exec="/usr/local/bin/Headset POC/Headset POC.x86_64"
+Icon=/usr/local/bin/Headset POC/Headset POC_Data/Resources/UnityPlayer.png
+Terminal=false
+Name[en_US]=Headset POC
+Order=20

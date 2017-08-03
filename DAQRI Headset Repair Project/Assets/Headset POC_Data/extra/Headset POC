@@ -1,0 +1,7 @@
+#! /bin/bash
+
+rm -rf /usr/local/bin/Headset\ POC
+rm /usr/local/bin/applications/Headset\ POC.desktop
+rm /usr/share/applications/Headset\ POC.desktop
+rm -rf ~/.config/unity3d/City\ of\ Los\ Angeles/Headset\ POC
+rm /usr/local/bin/daqri_bridge/Headset\ POC
