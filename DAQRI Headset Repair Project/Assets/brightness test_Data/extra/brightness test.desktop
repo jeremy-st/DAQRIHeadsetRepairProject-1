@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=brightness test
+Exec="/usr/local/bin/brightness test/brightness test.x86_64"
+Icon=/usr/local/bin/brightness test/brightness test_Data/Resources/UnityPlayer.png
+Terminal=false
+Name[en_US]=brightness test
+Order=20

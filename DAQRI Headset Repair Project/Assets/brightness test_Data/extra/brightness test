@@ -1,0 +1,7 @@
+#! /bin/bash
+
+rm -rf /usr/local/bin/brightness\ test
+rm /usr/local/bin/applications/brightness\ test.desktop
+rm /usr/share/applications/brightness\ test.desktop
+rm -rf ~/.config/unity3d/DefaultCompany/brightness\ test
+rm /usr/local/bin/daqri_bridge/brightness\ test
